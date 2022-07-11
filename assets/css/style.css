@@ -1,0 +1,39 @@
+body {
+    width: 1440px;
+    height: 1453px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0px auto;
+}
+
+header {
+    height: 80px;
+    border-bottom: solid 1px #F3735F;
+}
+
+nav {
+    padding-top: 24px;
+
+}
+
+nav img {
+    width: 200px;
+    object-fit: cover;
+}
+
+section {
+
+    height: 1179px;
+    margin-top: 60px;
+    background-color: aqua;
+}
+
+#myDiv {
+    height: 1179px;
+    width: 1024px;
+    margin: 0px auto;
+    margin-top: 60px;
+    background-color: aqua;
+}
