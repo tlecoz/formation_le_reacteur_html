@@ -31,9 +31,10 @@ section {
 }
 
 #myDiv {
-    height: 1179px;
     width: 1024px;
     margin: 0px auto;
+
+    height: 1179px;
     margin-top: 60px;
     background-color: aqua;
 }
