@@ -119,6 +119,73 @@ h1 {
 }
 
 
+/* SECTION */
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section h2 {
+    font-family: "TripSans";
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+section h3 {
+    font-family: "TripSans";
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+#left {
+    width: 48%;
+}
+
+
+
+#right {
+    width: 35%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#right p {
+    font-size: 15px;
+    padding-right: 25px;
+}
+
+#right button {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#right div {
+    background-color: #FF5d5d;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 35px 0px 0px 25px;
+}
+
+#right img {
+    height: 40%;
+    object-fit: cover;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
 /*-------------------------*/
 .container {
     width: 1136px;
